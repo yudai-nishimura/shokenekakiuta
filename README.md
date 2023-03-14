@@ -48,6 +48,9 @@
 ## ■画面遷移図
 [Figma](https://www.figma.com/file/IgjId5gBLyV8JNS5786s9w/%E5%88%9D%E8%A6%8B%E7%B5%B5%E6%8F%8F%E3%81%8D%E6%AD%8C?node-id=0%3A1&t=1PBHCuY2SUIiTfoe-1)
 
+## ■ER図
+[![Image from Gyazo](https://i.gyazo.com/72889c798d528eeb6040e112edda6ce5.png)](https://gyazo.com/72889c798d528eeb6040e112edda6ce5)
+
 ## ■スケジュール
 　企画〜技術調査：3/7〆切  
 　README〜ER図作成：3/14 〆切  
