@@ -45,6 +45,9 @@
 - YouTube上でもこのサービスのような企画が人気であり、使ってくれる人がいると判断したから。
 - 正解の絵とは程遠いものが生まれ、Twitter上で「ムズすぎwww」,「ふざけるな、初見でできるわけないだろ！！」などのツッコミを受けたい。
 
+## ■画面遷移図
+[Figma](https://www.figma.com/file/IgjId5gBLyV8JNS5786s9w/%E5%88%9D%E8%A6%8B%E7%B5%B5%E6%8F%8F%E3%81%8D%E6%AD%8C?node-id=0%3A1&t=1PBHCuY2SUIiTfoe-1)
+
 ## ■スケジュール
 　企画〜技術調査：3/7〆切  
 　README〜ER図作成：3/14 〆切  
