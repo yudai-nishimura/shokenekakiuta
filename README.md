@@ -49,7 +49,7 @@
 [Figma](https://www.figma.com/file/IgjId5gBLyV8JNS5786s9w/%E5%88%9D%E8%A6%8B%E7%B5%B5%E6%8F%8F%E3%81%8D%E6%AD%8C?node-id=0%3A1&t=1PBHCuY2SUIiTfoe-1)
 
 ## ■ER図
-[![Image from Gyazo](https://i.gyazo.com/72889c798d528eeb6040e112edda6ce5.png)](https://gyazo.com/72889c798d528eeb6040e112edda6ce5)
+<img width="627" alt="6a3737528c6bd117b2ac3c5eb2b0ab33" src="https://user-images.githubusercontent.com/105394766/224992119-e665973d-7069-4e42-b267-4ce66fb66dfb.png">
 
 ## ■スケジュール
 　企画〜技術調査：3/7〆切  
