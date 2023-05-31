@@ -29,3 +29,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# 追加
+/.env
+/public/uploads
+node_modules/
+.DS_Store
