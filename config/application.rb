@@ -35,5 +35,13 @@ module Shokenekakiuta
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # generate時の生成ファイルの設定
+    config.generators do |g|
+      g.skip_routes true
+      g.assets false
+      g.helper false
+      g.test_framework nil
+    end
   end
 end
