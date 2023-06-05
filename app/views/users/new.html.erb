@@ -1,7 +1,7 @@
 <div class="hero min-h-screen bg-base-200">
   <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
     <div class="card-body">
-      <%= form_with(model: @user, class: "form-control") do |f| %>
+      <%= form_with model: @user, class: "form-control" do |f| %>
         <div class="form-control">
           <%= f.label :name, class: "label" do %>
             <span class="label-text">ユーザー名</span>
@@ -30,7 +30,7 @@
           <%= f.submit class: "btn btn-primary" %>
         </div>
         <label class="label">
-          <%= link_to '既にアカウントをお持ちの方はこちら', "#", class: "label-text-alt link link-hover" %>
+          <%= link_to '既にアカウントをお持ちの方はこちら', login_path, class: "label-text-alt link link-hover" %>
         </label>
       <% end %>
     </div>
