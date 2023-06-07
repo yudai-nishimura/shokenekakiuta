@@ -1,0 +1,19 @@
+ja:
+  defaults:
+    shoken_ekakiuta: '初見絵描き歌'
+    login: 'ログイン'
+    register: '新規登録'
+    logout: 'ログアウト'
+    settings: '設定'
+    terms_of_service: '利用規約'
+    privacy_policy: 'プライバシーポリシー'
+    contact: 'お問い合わせ'
+  static_pages:
+    top:
+      register_to_get_started: '新規登録してはじめる'
+  users: 
+    new:
+      to_login_page: '既にアカウントをお持ちの方はこちら'
+  user_sessions:
+    new:
+      to_register_page: 'アカウントをお持ちでない方はこちら'
