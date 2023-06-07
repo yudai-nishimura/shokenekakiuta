@@ -1,11 +1,11 @@
 <div class="navbar bg-neutral text-neutral-content">
   <div class="flex-1">
-    <%= link_to '初見絵描き歌', root_path, class: "btn btn-ghost normal-case text-xl" %>
+    <%= link_to t('defaults.shoken_ekakiuta'), root_path, class: "btn btn-ghost normal-case text-xl" %>
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
-      <li><%= link_to '新規登録', signup_path %></li>
-      <li><%= link_to 'ログイン', login_path %></li>
+      <li><%= link_to t('defaults.register'), signup_path %></li>
+      <li><%= link_to t('defaults.login'), login_path %></li>
     </ul>
   </div>
 </div>

@@ -1,9 +1,9 @@
 <div class="hero min-h-screen bg-base-200">
   <div class="hero-content text-center">
     <div class="max-w-md">
-      <h1 class="text-7xl font-bold">初見絵描き歌</h1>
+      <h1 class="text-7xl font-bold"><%= t('defaults.shoken_ekakiuta') %></h1>
       <p class="py-6">初めて聴く絵描き歌で絵を描いてみよう！</p>
-      <%= button_to '新規登録してはじめる', signup_path, method: :get, class: "btn btn-primary" %>
+      <%= button_to t('.register_to_get_started'), signup_path, method: :get, class: "btn btn-primary" %>
     </div>
   </div>
 </div>
