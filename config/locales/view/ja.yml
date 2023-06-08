@@ -14,6 +14,14 @@ ja:
   users: 
     new:
       to_login_page: '既にアカウントをお持ちの方はこちら'
+    create:
+      success: 'ユーザー登録が完了しました'
+      fail: 'ユーザー登録に失敗しました'
   user_sessions:
     new:
       to_register_page: 'アカウントをお持ちでない方はこちら'
+    create:
+      success: 'ログインしました'
+      fail: 'ログインに失敗しました'
+    destroy:
+      success: 'ログアウトしました'
