@@ -2,6 +2,7 @@
   <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
     <div class="card-body">
       <%= form_with model: @user, class: "form-control" do |f| %>
+        <%= render 'shared/error_messages', object: f.object %>
         <div class="form-control">
           <%= f.label :name, class: "label" do %>
             <span class="label-text"><%= User.human_attribute_name(:name) %></span>
