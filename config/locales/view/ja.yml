@@ -8,6 +8,7 @@ ja:
     terms_of_service: '利用規約'
     privacy_policy: 'プライバシーポリシー'
     contact: 'お問い合わせ'
+    challenge: '挑戦する'
   static_pages:
     top:
       register_to_get_started: '新規登録してはじめる'
@@ -25,3 +26,6 @@ ja:
       fail: 'ログインに失敗しました'
     destroy:
       success: 'ログアウトしました'
+  drawing_songs:
+    index:
+      list_of_drawing_songs: '絵描き歌一覧'
