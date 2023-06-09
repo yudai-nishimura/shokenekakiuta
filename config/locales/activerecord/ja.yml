@@ -2,12 +2,19 @@ ja:
   activerecord:
     models:
       user: 'ユーザー'
+      drawing_song: '絵描き歌'
     attributes:
       user:
         name: 'ユーザー名'
         email: 'メールアドレス'
         password: 'パスワード'
         password_confirmation: 'パスワード確認'
+      drawing_song:
+        name: '絵描き歌名'
+        song: '歌'
+        lyrics: '歌詞'
+        process: '手順'
+        difficulty: '難易度'
   attributes:
     id: 'ID'
     created_at: '作成日時'

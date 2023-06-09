@@ -11,6 +11,10 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
+# Indexes
+#
+#  index_drawing_songs_on_name  (name) UNIQUE
+#
 class DrawingSong < ApplicationRecord
   validates :name, presence: true
   validates :name, uniqueness: true
