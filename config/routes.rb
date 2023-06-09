@@ -7,4 +7,5 @@ Rails.application.routes.draw do
 
   get 'signup', to: 'users#new'
   resources :users, only: %i[create]
+  resources :drawing_songs, only: %i[index]
 end

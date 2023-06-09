@@ -1,0 +1,20 @@
+<div class="container mx-auto text-center py-6 px-4 text-sm lg:text-3xl text-black font-bold">
+  <h1><%= t('.list_of_drawing_songs') %></h1>
+</div>
+
+<div class="container mx-auto flex flex-col min-h-screen">
+  <table class="min-w-full divide-y divide-gray-200">
+    <thead>
+      <tr>
+        <th class="py-2 px-4 text-left text-sm lg:text-xl"><%= DrawingSong.model_name.human %></th>
+        <th class="py-2 px-4 text-left text-sm lg:text-xl"><%= DrawingSong.human_attribute_name(:difficulty) %></th>
+        <th class="py-2 px-4 text-left text-sm lg:text-xl"></th>
+      </tr>
+    </thead>
+    <tbody class="bg-white divide-y divide-gray-200">
+      <% @drawing_songs.each do |drawing_song| %>
+        <%= render 'drawing_song', drawing_song: drawing_song %>
+      <% end %>
+    </tbody>
+  </table>
+</div>
