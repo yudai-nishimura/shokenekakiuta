@@ -9,5 +9,6 @@ class CreateDrawingSongs < ActiveRecord::Migration[7.0]
 
       t.timestamps
     end
+    add_index :drawing_songs, :name, unique: true
   end
 end

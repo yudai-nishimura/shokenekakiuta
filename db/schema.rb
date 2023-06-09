@@ -22,6 +22,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_08_160057) do
     t.integer "difficulty"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_drawing_songs_on_name", unique: true
   end
 
   create_table "users", force: :cascade do |t|
