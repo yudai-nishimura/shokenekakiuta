@@ -1,0 +1,31 @@
+<div class="bg-white py-6 sm:py-8 lg:py-12 min-h-screen">
+  <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+    <div class="grid gap-8 md:grid-cols-2 lg:gap-12">
+      <div class="relative">
+        <div class="pb-[100%] overflow-hidden rounded-lg bg-gray-100 shadow-lg">
+          <canvas id="myCanvas" class="absolute inset-0 w-full h-full border border-gray-300"></canvas>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center justify-center md:pt-8">
+        <div class="text-center mb-10">
+          <p class="text-gray-700">「絵描き歌」を聴き、絵を描いてみましょう！</p>
+          <p class="text-gray-700">何も難しくはありません。歌詞の通り描けばいいのです...。</p>
+        </div>
+        <div class="mt-4 mb-4">
+          <%= audio_tag @drawing_song.song ,id: "audio", controls: true, controlslist: 'nodownload' %>
+        </div>
+        <form class="mt-8">
+          <div class="mb-8">
+            <div class="text-center mb-4 font-bold">
+              <P>何の絵描き歌？</p>
+            </div>
+            <label for="name" class="block font-medium text-gray-700"><%= t('.guess') %></label>
+            <input type="text" id="name" class="block px-4 py-2 border border-gray-300 rounded-md">
+          </div>
+          <%= button_to t('.decide'), '#', class: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4" %>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
