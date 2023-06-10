@@ -29,3 +29,6 @@ ja:
   drawing_songs:
     index:
       list_of_drawing_songs: '絵描き歌一覧'
+    show:
+      guess: 'あなたの予想'
+      decide: '決定'
