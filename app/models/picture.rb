@@ -22,4 +22,6 @@
 class Picture < ApplicationRecord
   belongs_to :user
   belongs_to :drawing_song
+
+  validates :image, presence: true
 end
