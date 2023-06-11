@@ -16,6 +16,8 @@
 #  index_drawing_songs_on_name  (name) UNIQUE
 #
 class DrawingSong < ApplicationRecord
+  has_many :pictures, dependent: :destroy
+
   validates :name, presence: true
   validates :name, uniqueness: true
 end
