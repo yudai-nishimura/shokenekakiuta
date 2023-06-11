@@ -3,6 +3,7 @@ ja:
     models:
       user: 'ユーザー'
       drawing_song: '絵描き歌'
+      picture: '絵'
     attributes:
       user:
         name: 'ユーザー名'
@@ -15,6 +16,8 @@ ja:
         lyrics: '歌詞'
         process: '手順'
         difficulty: '難易度'
+      picture:
+        image: '絵'
   attributes:
     id: 'ID'
     created_at: '作成日時'
