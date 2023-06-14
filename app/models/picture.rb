@@ -20,6 +20,8 @@
 #  fk_rails_...  (user_id => users.id)
 #
 class Picture < ApplicationRecord
+  mount_uploader :image, ImageUploader
+
   belongs_to :user
   belongs_to :drawing_song
 
