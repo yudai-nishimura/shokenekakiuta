@@ -5,5 +5,6 @@ class DrawingSongsController < ApplicationController
 
   def show
     @drawing_song = DrawingSong.find(params[:id])
+    @picture = Picture.new
   end
 end
