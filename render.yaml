@@ -1,0 +1,21 @@
+databases:
+  - name: shokenekakiuta_DB
+    databaseName: shokenekakiuta_db
+    user: shokenekakiuta
+    region: singapore
+
+services:
+  - type: web
+    name: shokenekakiuta
+    env: ruby
+    region: singapore
+    plan: free
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: shokenekakiuta_DB
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
