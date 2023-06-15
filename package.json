@@ -2,11 +2,14 @@
   "name": "app",
   "private": "true",
   "scripts": {
-    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
+    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify",
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
     "daisyui": "^3.0.0",
+    "esbuild": "^0.18.2",
+    "fabric": "^5.3.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
   }

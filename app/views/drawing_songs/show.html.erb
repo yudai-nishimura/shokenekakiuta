@@ -31,7 +31,7 @@
               <label for="name" class="block font-medium text-gray-700"><%= t('.guess') %></label>
               <input type="text" id="name" placeholder="未実装" class="block px-4 py-2 border border-gray-300 rounded-md">
             </div>
-            <p class="text-gray-700">絵をスクショして保存してください</p>
+            <p class="text-gray-700">絵を実際に紙に書いて写真を撮ってアップしてください</p>
             <%= form.file_field :image, id: 'picture_image_data' %>
             <%= form.button t('.decide'), class: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4", id: 'save-button' %>
           </div>
@@ -42,7 +42,7 @@
 </div>
 
 <script type="module">
-  import { fabric } from 'fabric';
+  import fabric from 'fabric';
 
   const canvas = new fabric.Canvas("canvas");
 
