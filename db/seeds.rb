@@ -9,3 +9,10 @@
 20.times do |i|
   DrawingSong.create(name: "絵描き歌#{i + 1}")
 end
+
+drawing_song = DrawingSong.find(1)
+drawing_song.song = 'cook_s.mp3'  
+drawing_song = DrawingSong.find(2)
+drawing_song.song = 'buta_s.mp3'  
+drawing_song = DrawingSong.find(3)
+drawing_song.song = 'kappa_s.mp3'  
